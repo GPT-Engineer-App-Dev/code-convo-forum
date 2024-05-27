@@ -11,7 +11,8 @@ const Index = () => {
           <Link as={RouterLink} to="/" _hover={{ textDecoration: "none", color: "gray.400" }}>Home</Link>
           <Link as={RouterLink} to="/categories" _hover={{ textDecoration: "none", color: "gray.400" }}>Categories</Link>
           <Link as={RouterLink} to="/profile" _hover={{ textDecoration: "none", color: "gray.400" }}>My Profile</Link>
-          <Link as={RouterLink} to="/login" _hover={{ textDecoration: "none", color: "gray.400" }}>Login/Register</Link>
+          <Link as={RouterLink} to="/login" _hover={{ textDecoration: "none", color: "gray.400" }}>Login</Link>
+          <Link as={RouterLink} to="/register" _hover={{ textDecoration: "none", color: "gray.400" }}>Register</Link>
         </HStack>
       </Flex>
 
